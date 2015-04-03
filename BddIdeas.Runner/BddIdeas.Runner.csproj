@@ -47,6 +47,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BddIdeas.Core\BddIdeas.Core.csproj">
+      <Project>{d04444e5-05c8-49e8-a775-ad2c68312993}</Project>
+      <Name>BddIdeas.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BddIdeas.Tests\BddIdeas.Tests.csproj">
+      <Project>{3d30e66a-4961-4c70-871b-34fd367f59a6}</Project>
+      <Name>BddIdeas.Tests</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
