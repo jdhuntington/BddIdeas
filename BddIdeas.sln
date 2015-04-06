@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddIdeas.Tests", "BddIdeas.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddIdeas.Core", "BddIdeas.Core\BddIdeas.Core.csproj", "{D04444E5-05C8-49E8-A775-AD2C68312993}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddIdeas.CsxRunner", "BddIdeas.CsxRunner\BddIdeas.CsxRunner.csproj", "{A1CAF395-FD96-4CC2-8DE8-2ADDDAA9F6A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D04444E5-05C8-49E8-A775-AD2C68312993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D04444E5-05C8-49E8-A775-AD2C68312993}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D04444E5-05C8-49E8-A775-AD2C68312993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CAF395-FD96-4CC2-8DE8-2ADDDAA9F6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CAF395-FD96-4CC2-8DE8-2ADDDAA9F6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CAF395-FD96-4CC2-8DE8-2ADDDAA9F6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CAF395-FD96-4CC2-8DE8-2ADDDAA9F6A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
