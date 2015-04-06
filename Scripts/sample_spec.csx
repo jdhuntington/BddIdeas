@@ -1,44 +1,44 @@
 #load "bdd.csx"
 
-describe(typeof (Idea), () =>
+Describe(typeof (Idea), () =>
 {
 			var a = 0;
-			before(() => a = 10);
+			Before(() => a = 10);
 
-			it("executes it blocks", () =>
+			It("executes it blocks", () =>
 			{
 				Assert.AreEqual(0, 0);
 			});
 
-			it("gracefully handles exceptions", () =>
+			It("gracefully handles exceptions", () =>
 			{
 				throw new Exception("This was completely intentional.");
 			});
 
-			describe("nested contexts", () =>
+			Describe("nested contexts", () =>
 			{
-          before(() => a = 1);
+          Before(() => a = 1);
 
-          it("handles them", () =>
+          It("handles them", () =>
           {
           	Assert.IsTrue(true);
           });
 
-          it("handles before blocks correctly", () =>
+          It("handles before blocks correctly", () =>
           {
           	Assert.AreEqual(a, 1);
           });
 			});
 
-			describe("intentional failures", () =>
+			Describe("intentional failures", () =>
 			{
-  				it("does what testing frameworks do", () =>
+  				It("does what testing frameworks do", () =>
   				{
   					Assert.AreEqual(4, 5);
   				});
 			});
 
-			describe("other neat features", () =>
+			Describe("other neat features", () =>
 			{
   				idea.Pending("specs are allowed.", () =>
   				{
