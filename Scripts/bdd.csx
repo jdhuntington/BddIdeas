@@ -1,4 +1,6 @@
-#r "BddIdeas.Core.dll"
+#r "Microsoft.VisualStudio.QualityTools.UnitTestFramework"
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 using BddIdeas.Core;
 
 public static Idea idea = new Idea();

@@ -1,8 +1,5 @@
 #load "bdd.csx"
 
-#r "Microsoft.VisualStudio.QualityTools.UnitTestFramework"
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 describe(typeof (Idea), () =>
 {
 			var a = 0;
@@ -49,3 +46,5 @@ describe(typeof (Idea), () =>
   				});
 			});
 });
+
+return idea;
