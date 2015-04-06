@@ -46,5 +46,3 @@ Describe(typeof (Idea), () =>
           });
       });
 });
-
-return idea;
