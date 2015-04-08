@@ -94,6 +94,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecScriptHost.cs" />
+    <Compile Include="SpecScriptHostFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

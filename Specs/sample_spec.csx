@@ -1,4 +1,4 @@
-#load "bdd.csx"
+using BddIdeas.Core;
 
 Describe(typeof (Idea), () =>
 {
@@ -40,7 +40,7 @@ Describe(typeof (Idea), () =>
 
       Describe("other neat features", () =>
       {
-          idea.Pending("specs are allowed.", () =>
+          Pending("specs are allowed.", () =>
           {
               Assert.Fail("This won't be executed");
           });
