@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddIdeas.Core", "BddIdeas.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BddIdeas.CsxRunner", "BddIdeas.CsxRunner\BddIdeas.CsxRunner.csproj", "{A1CAF395-FD96-4CC2-8DE8-2ADDDAA9F6A1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specs", "Specs", "{E30189C7-65A9-434C-AF04-9FC3DA664A2C}"
+	ProjectSection(SolutionItems) = preProject
+		Specs\sample.csx = Specs\sample.csx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

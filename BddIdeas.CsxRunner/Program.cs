@@ -48,7 +48,7 @@
                     "..",
                     "..",
                     "..",
-                    "Scripts")
+                    "Specs")
                     );
 
             var results = Directory
