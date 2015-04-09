@@ -93,9 +93,7 @@ publish
 
 
 # NuGet Packages Directory
-/src/packages/*
-!/src/packages/Microsoft.AMPSports.DataAPI.1.0.45
-
+/packages/*
 
 # Windows Azure Build Output
 csx
