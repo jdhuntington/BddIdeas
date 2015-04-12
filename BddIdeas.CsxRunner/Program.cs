@@ -26,7 +26,7 @@
                 .ScriptEngine<RoslynScriptInMemoryEngine>();
 
             //HACK! this will be better with the next scriptcs release
-            var overrides = ((ServiceOverrides<IScriptServicesBuilder>)builder).Overrides;
+            var overrides = ((ScriptServicesBuilder)builder).Overrides;
             overrides[typeof(IScriptHostFactory)] = factory;
 
             var scriptcs = builder.Build();
